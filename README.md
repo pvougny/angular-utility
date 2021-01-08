@@ -1,9 +1,4 @@
 # angular-utility
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
-
-It provide Angular directives throughout libraries:
-- ``PvoWith`` structural directive: contextualize values.
-
-## Getting started
-
+This repository provides Angular services, directives and pipes through libraries:
+- [Translate](./projects/translate/README.md) Translate dynamic texts from a class or a view

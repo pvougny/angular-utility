@@ -1,14 +1,29 @@
 {
   "name": "angular-utility",
   "version": "0.0.0",
+  "author": "Paul VOUGNY",
+  "homepage": "http://paulvougny.fr",
+  "description": "Angular services, directives and pipes through libraries",
+  "keywords": [
+    "angular",
+    "typescript",
+    "javascript",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvougny/angular-utility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pvougny/angular-utility/issues"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
+    "build:translate": "ng build translate --prod",
+    "test": "ng test --watch=false --browsers=ChromeHeadlessNoSandbox",
+    "test:local": "ng test --browsers=Chrome",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "~11.0.5",
     "@angular/common": "~11.0.5",
@@ -23,6 +38,7 @@
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~0.1100.5",
     "@angular/cli": "~11.0.5",
     "@angular/compiler-cli": "~11.0.5",
     "@types/jasmine": "~3.6.0",
@@ -35,6 +51,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "ng-packagr": "^11.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
