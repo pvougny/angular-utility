@@ -16,7 +16,8 @@
       "dom"
     ],
     "paths": {
-      "@olop/ng-translate": ["dist/translate"]
+      "@olop/ng-translate": ["dist/translate"],
+      "@olop/ng-with": ["dist/with"]
     }
   }
 }
