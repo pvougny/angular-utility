@@ -17,7 +17,8 @@
     ],
     "paths": {
       "@olop/ng-translate": ["dist/translate"],
-      "@olop/ng-with": ["dist/with"]
+      "@olop/ng-with": ["dist/with"],
+      "@olop/ng-attach": ["dist/attach"]
     }
   }
 }

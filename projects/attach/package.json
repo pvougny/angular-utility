@@ -1,0 +1,27 @@
+{
+  "name": "@olop/ng-attach",
+  "version": "1.0.0",
+  "author": "Paul VOUGNY",
+  "homepage": "http://paulvougny.fr",
+  "description": "Angular directive to detach and cache elements from the DOM when not displayed and reattach them when displayed again",
+  "keywords": [
+    "angular",
+    "typescript",
+    "javascript",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvougny/angular-utility.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pvougny/angular-utility/issues"
+  },
+  "peerDependencies": {
+    "@angular/common": "^7.0.0",
+    "@angular/core": "^7.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
