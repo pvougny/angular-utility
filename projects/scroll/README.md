@@ -97,3 +97,21 @@ export class MyComponent {
   </ng-container>
 </div>
 ```
+
+The `scrollTarget` attribute is a parameter of the `RestoreScrollPositionDirective` directive (`pvoRestoreScrollPosition`) that takes:
+
+- either a template variable:
+
+```html
+<div [pvoRestoreScrollPosition]="itemActive.id" [scrollTarget]="self" #self>
+  ...
+</div>
+```
+
+- or the string `html` to restore root document scrollbars:
+
+```html
+<div [pvoRestoreScrollPosition]="itemActive.id" scrollTarget="html">
+  ...
+</div>
+```

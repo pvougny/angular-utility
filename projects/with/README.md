@@ -78,6 +78,6 @@ export class MyComponent {
 </ng-container>
 
 <ng-container *pvoWith="o$ | async as o">
-  <p>{{ o.brand }} {{ o.model }}, {{o.nbKeys}} notes keybord.</p>
+  <p>{{ o.brand }} {{ o.model }}, {{o.nbKeys}} notes keyboard.</p>
 </ng-container>
 ```
